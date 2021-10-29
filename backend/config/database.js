@@ -8,9 +8,6 @@ const connectDatabase = () => {
     })
     .then((data) => {
       console.log(`mongodb connected @ ${data.connection.host}`);
-    })
-    .catch((err) => {
-      console.log(err);
     });
 };
 
