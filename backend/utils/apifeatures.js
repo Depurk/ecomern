@@ -1,5 +1,3 @@
-const { json } = require("express/lib/response");
-
 class Apifeatures {
   constructor(query, queryStr) {
     this.query = query;
